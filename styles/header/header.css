@@ -4,11 +4,15 @@
   align-items: center;
   gap: 32px;
 }
-.button {
+.burger-menu {
   background: none;
   padding: 12px 10px;
   border-radius: 8px;
   border: 1px solid #8e5dbe;
+  cursor: pointer;
+}
+.burger-menu:hover {
+  background: rgba(255, 255, 255, 0.333);
 }
 
 .burger-line {
@@ -18,4 +22,26 @@
   background: #fff;
   margin-bottom: 3px;
   border-radius: 20px;
+}
+.burger-line:last-child {
+  margin-bottom: 0;
+}
+
+.logo {
+  margin: 0;
+  color: #fff;
+  font-size: 28px;
+  font-weight: 600;
+  font-variant: all-small-caps;
+  letter-spacing: 0.56px;
+}
+
+.label-search {
+  border-radius: 36px;
+  background: rgba(255, 255, 255, 0.2);
+  width: 930px;
+}
+#search {
+        background: none;
+        border: none;
 }
