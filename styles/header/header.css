@@ -1,0 +1,21 @@
+.header {
+  display: flex;
+  padding: 16px 3px 16px 24px;
+  align-items: center;
+  gap: 32px;
+}
+.button {
+  background: none;
+  padding: 12px 10px;
+  border-radius: 8px;
+  border: 1px solid #8e5dbe;
+}
+
+.burger-line {
+  height: 4px;
+  display: block;
+  width: 28px;
+  background: #fff;
+  margin-bottom: 3px;
+  border-radius: 20px;
+}
