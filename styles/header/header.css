@@ -37,11 +37,34 @@
 }
 
 .label-search {
+  display: flex;
   border-radius: 36px;
   background: rgba(255, 255, 255, 0.2);
   width: 930px;
+  padding: 10px 20px;
+}
+
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
 }
 #search {
-        background: none;
-        border: none;
+  background: none;
+  border: none;
+  width: 80%;
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+#search::placeholder {
+  color: #fff;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  border: none;
 }
