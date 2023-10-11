@@ -2,7 +2,7 @@
   display: flex;
   padding: 16px 3px 16px 24px;
   align-items: center;
-  gap: 32px;
+  gap: 16px;
 }
 .burger-menu {
   background: none;
@@ -34,14 +34,17 @@
   font-weight: 600;
   font-variant: all-small-caps;
   letter-spacing: 0.56px;
+  line-height: 24px;
+  margin-right: 16px;
 }
 
 .label-search {
   display: flex;
   gap: 8px;
+  margin-right: 12px;
   border-radius: 36px;
   background: rgba(255, 255, 255, 0.2);
-  width: 900px;
+  width: 929px;
   padding: 10px 20px;
 }
 
