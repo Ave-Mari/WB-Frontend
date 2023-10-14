@@ -1,4 +1,4 @@
-const cardData = [
+const cartData = [
     {
         id: 143654,
         itemTitle: 'Футболка UZcotton мужская',
@@ -36,3 +36,5 @@ const cardData = [
         discount: '', //one grand price
     }
 ]
+
+export default cartData;
