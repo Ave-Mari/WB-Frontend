@@ -3,7 +3,7 @@
   background: #fff;
   box-shadow: 0px 0px 1px 0px rgba(0, 0, 0, 0.3),
     0px 2px 10px 0px rgba(0, 0, 0, 0.15);
-  width: 429px;
+  width: 383px;
   padding: 16px 24px 24px 24px;
   display: flex;
   flex-direction: column;
@@ -35,7 +35,7 @@
   background: none;
   border: none;
   border-radius: 12px;
-  padding: 5px;
+  padding: 3px;
   cursor: pointer;
 }
 
@@ -51,6 +51,12 @@
   background: none;
   border: none;
   border-bottom: 1px dashed rgba(203, 17, 171, 0.2);
+  margin-bottom: 13px;
+  cursor: pointer;
+}
+
+.payment-block {
+  width: 100%;
 }
 
 .checkbox-payment-wrapper {
@@ -59,24 +65,36 @@
   flex-direction: column;
   align-items: flex-start;
   gap: 8px;
-  align-self: stretch;
   border-radius: 8px;
   background: #f6f6fa;
+  font-size: 12px;
 }
 
 .delivery-to {
   margin-top: 0px;
   margin-bottom: 4px;
+  font-size: 16.6px;
 }
 
 .delivery-headline-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 .payment-headline-wrapper {
   display: flex;
   justify-content: space-between;
+  align-items: center;
+}
+.payment-card-wrapper {
+  margin-bottom: 12px;
+}
+
+.payment-by {
+  margin-top: 0px;
+  margin-bottom: 4px;
+  font-size: 16.6px;
 }
 
 .return-shipping-wrapper {
@@ -86,4 +104,37 @@
   gap: 8px;
   border-radius: 8px;
   background: #f6f6fa;
+  font-size: 12px;
+}
+
+.order-button {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+  border-radius: 8px;
+  background: #cb11ab;
+  width: 100%;
+  padding-top: 8px;
+  padding-bottom: 11px;
+  border: none;
+  margin-bottom: 12px;
+}
+
+.order-wrapper {
+    font-size: 12px;
+}
+
+.order-checkbox-label {
+    display: flex;
+    align-items: flex-start; 
+    gap: 8px; 
+}
+
+.order-checkbox-label p span {
+    text-decoration: underline dashed #a9a9a9;
+    text-underline-offset: 4px;
+    cursor: pointer;
 }
