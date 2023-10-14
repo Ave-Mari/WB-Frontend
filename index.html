@@ -52,11 +52,29 @@
         </p>
 
         <div class="delivery-and-payment-block">
-          <!-- price & delivery -->
+          <div class="price-info">
+            <div class="left-block">
+              <h2 class="total">Итого</h2>
+              <p class="amount">
+                <span id="amount-data-dynamic">203</span> товара
+              </p>
+              <p class="discount">Скидка</p>
+              <p class="delivery">Доставка</p>
+            </div>
+            <div class="right-block">
+              <h2 class="total-data">456 565 сом</h2>
+              <p class="amount-data">454 576 сом</p>
+              <p class="discount-data">-787 879 сом</p>
+              <p class="delivery-data">Бесплатно</p>
+            </div>
+          </div>
           <div class="delivery-block">
+            <button class="edit-button">
+              <img src="./styles/payment/edit.svg" alt="edit" />
+            </button>
             <h3 class="delivery-to">Доставка в пункт выдачи</h3>
             <p>Бишкек, улица Ахматбека Суюмбаева, 12/1</p>
-            <button>5–8 фев</button>
+            <button class="date-button">5–8 фев</button>
             <div class="return-shipping-wrapper">
               <img src="./styles/cart/return-shipping.svg" alt="" />
               <p>
@@ -66,12 +84,15 @@
             </div>
           </div>
           <div class="payment-block">
+            <button class="edit-button">
+                <img src="./styles/payment/edit.svg" alt="edit" />
+              </button>
             <h3 class="payment-by">Оплата картой</h3>
             <img src="./styles/cart/mir.svg" alt="payment system" />
             <span class="card-number">1234 1234 1234 1234</span>
             <div class="checkbox-payment-wrapper">
               <label for="payment-checkbox">
-                <input type="checkbox" id="payment-checkbox"/>
+                <input type="checkbox" id="payment-checkbox" />
                 Списать оплату сразу
               </label>
               <p class="payment-checkbox-text">
