@@ -37,7 +37,6 @@
   border-radius: 12px;
   padding: 5px;
   cursor: pointer;
-  position: absolute;
 }
 
 .edit-button:hover {
@@ -51,17 +50,40 @@
   line-height: 16px;
   background: none;
   border: none;
-  border-bottom: 1px dashed rgba(203, 17, 171, 0.20);;
+  border-bottom: 1px dashed rgba(203, 17, 171, 0.2);
 }
 
 .checkbox-payment-wrapper {
-    display: flex;
-    padding: 8px 8px 12px 8px;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    align-self: stretch;
-    border-radius: 8px;
-    background: #F6F6FA;
-  }
-  
+  display: flex;
+  padding: 8px 8px 12px 8px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  align-self: stretch;
+  border-radius: 8px;
+  background: #f6f6fa;
+}
+
+.delivery-to {
+  margin-top: 0px;
+  margin-bottom: 4px;
+}
+
+.delivery-headline-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.payment-headline-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.return-shipping-wrapper {
+  display: flex;
+  padding: 8px 8px 12px 8px;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #f6f6fa;
+}
