@@ -69,10 +69,12 @@
             </div>
           </div>
           <div class="delivery-block">
-            <button class="edit-button">
-              <img src="./styles/payment/edit.svg" alt="edit" />
-            </button>
-            <h3 class="delivery-to">Доставка в пункт выдачи</h3>
+            <div class="delivery-headline-wrapper">
+              <h3 class="delivery-to">Доставка в пункт выдачи</h3>
+              <button class="edit-button">
+                <img src="./styles/payment/edit.svg" alt="edit" />
+              </button>
+            </div>
             <p>Бишкек, улица Ахматбека Суюмбаева, 12/1</p>
             <button class="date-button">5–8 фев</button>
             <div class="return-shipping-wrapper">
@@ -84,12 +86,17 @@
             </div>
           </div>
           <div class="payment-block">
-            <button class="edit-button">
+            <div class="payment-headline-wrapper">
+              <h3 class="payment-by">Оплата картой</h3>
+              <button class="edit-button">
                 <img src="./styles/payment/edit.svg" alt="edit" />
               </button>
-            <h3 class="payment-by">Оплата картой</h3>
-            <img src="./styles/cart/mir.svg" alt="payment system" />
-            <span class="card-number">1234 1234 1234 1234</span>
+            </div>
+            <div class="payment-card-wrapper">
+              <img src="./styles/cart/mir.svg" alt="payment system" />
+              <span class="card-number">1234 1234 1234 1234</span>
+            </div>
+
             <div class="checkbox-payment-wrapper">
               <label for="payment-checkbox">
                 <input type="checkbox" id="payment-checkbox" />
