@@ -45,73 +45,91 @@
         </div>
       </header>
       <main class="main">
-        <section class="cart"></section>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi,
-          officia!
-        </p>
+        <section class="cart">
+            <h2 class="cart-headline">
+                Корзина
+            </h2>
+            <ul class="cart-items-list">
 
-        <div class="delivery-and-payment-block">
-          <div class="price-info">
-            <div class="left-block">
-              <h2 class="total">Итого</h2>
-              <p class="amount">
-                <span id="amount-data-dynamic">203</span> товара
-              </p>
-              <p class="discount">Скидка</p>
-              <p class="delivery">Доставка</p>
-            </div>
-            <div class="right-block">
-              <h2 class="total-data">456 565 сом</h2>
-              <p class="amount-data">454 576 сом</p>
-              <p class="discount-data">-787 879 сом</p>
-              <p class="delivery-data">Бесплатно</p>
-            </div>
-          </div>
-          <div class="delivery-block">
-            <div class="delivery-headline-wrapper">
-              <h3 class="delivery-to">Доставка в пункт выдачи</h3>
-              <button class="edit-button">
-                <img src="./styles/payment/edit.svg" alt="edit" />
-              </button>
-            </div>
-            <p>Бишкек, улица Ахматбека Суюмбаева, 12/1</p>
-            <button class="date-button">5–8 фев</button>
-            <div class="return-shipping-wrapper">
-              <img src="./styles/cart/return-shipping.svg" alt="" />
-              <p>
-                Обратная доставка товаров на склад при отказе —
-                <span>бесплатно</span>
-              </p>
-            </div>
-          </div>
-          <div class="payment-block">
-            <div class="payment-headline-wrapper">
-              <h3 class="payment-by">Оплата картой</h3>
-              <button class="edit-button">
-                <img src="./styles/payment/edit.svg" alt="edit" />
-              </button>
-            </div>
-            <div class="payment-card-wrapper">
-              <img src="./styles/cart/mir.svg" alt="payment system" />
-              <span class="card-number">1234 1234 1234 1234</span>
-            </div>
+            </ul>
 
-            <div class="checkbox-payment-wrapper">
-              <label for="payment-checkbox">
-                <input type="checkbox" id="payment-checkbox" />
-                Списать оплату сразу
-              </label>
-              <p class="payment-checkbox-text">
-                Спишем оплату с карты при получении
-              </p>
-            </div>
-          </div>
-        </div>
+            <div class="delivery-and-payment-block">
+                <div class="price-info">
+                  <div class="left-block">
+                    <h2 class="total">Итого</h2>
+                    <p class="amount">
+                      <span id="amount-data-dynamic">203</span> товара
+                    </p>
+                    <p class="discount">Скидка</p>
+                    <p class="delivery">Доставка</p>
+                  </div>
+                  <div class="right-block">
+                    <h2 class="total-data">456 565 сом</h2>
+                    <p class="amount-data">454 576 сом</p>
+                    <p class="discount-data">-787 879 сом</p>
+                    <p class="delivery-data">Бесплатно</p>
+                  </div>
+                </div>
+                <div class="delivery-block">
+                  <div class="delivery-headline-wrapper">
+                    <h3 class="delivery-to">Доставка в пункт выдачи</h3>
+                    <button class="edit-button">
+                      <img src="./styles/payment/edit.svg" alt="edit" />
+                    </button>
+                  </div>
+                  <p>Бишкек, улица Ахматбека Суюмбаева, 12/1</p>
+                  <button class="date-button">5–8 фев</button>
+                  <div class="return-shipping-wrapper">
+                    <img src="./styles/cart/return-shipping.svg" alt="" />
+                    <p>
+                      Обратная доставка товаров на склад при отказе —
+                      <span>бесплатно</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="payment-block">
+                  <div class="payment-headline-wrapper">
+                    <h3 class="payment-by">Оплата картой</h3>
+                    <button class="edit-button">
+                      <img src="./styles/payment/edit.svg" alt="edit" />
+                    </button>
+                  </div>
+                  <div class="payment-card-wrapper">
+                    <img src="./styles/cart/mir.svg" alt="payment system" />
+                    <span class="card-number">1234 1234 1234 1234</span>
+                  </div>
+      
+                  <div class="checkbox-payment-wrapper">
+                    <label for="payment-checkbox">
+                      <input type="checkbox" id="payment-checkbox" />
+                      Списать оплату сразу
+                    </label>
+                    <p class="payment-checkbox-text">
+                      Спишем оплату с карты при получении
+                    </p>
+                  </div>
+                </div>
+                <div class="order-wrapper">
+                  <button class="order-button">Заказать</button>
+                  <label for="order-checkbox" class="order-checkbox-label">
+                    <input type="checkbox" id="order-checkbox" />
+                    <p>
+                      Соглашаюсь с
+                      <span>правилами пользования торговой</span> площадкой и <span
+                        >возврата</span
+                      >
+                    </p>
+                  </label>
+                </div>
+              </div>
+        </section>
+               
       </main>
       <footer class="footer">
         <p class="footer-text">© 2022 ООО «Товары и точка»</p>
       </footer>
     </div>
+
+    <script type="module" src="./main.js" ></script>
   </body>
 </html>
