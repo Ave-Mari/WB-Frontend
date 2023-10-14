@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="./styles/main/main.css" />
     <link rel="stylesheet" href="./styles/header/header.css" />
     <link rel="stylesheet" href="./styles/footer/footer.css" />
+    <link rel="stylesheet" href="./styles/payment/payment.css" />
     <title>Товары и Точка</title>
   </head>
   <body>
@@ -44,30 +45,41 @@
         </div>
       </header>
       <main class="main">
-        <section class="cart">
+        <section class="cart"></section>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi,
+          officia!
+        </p>
 
-            
-        </section>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi,
-          officia!
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi,
-          officia!
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi,
-          officia!
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi,
-          officia!
-        </p>
-        <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quasi,
-          officia!
-        </p>
+        <div class="delivery-and-payment-block">
+          <!-- price & delivery -->
+          <div class="delivery-block">
+            <h3 class="delivery-to">Доставка в пункт выдачи</h3>
+            <p>Бишкек, улица Ахматбека Суюмбаева, 12/1</p>
+            <button>5–8 фев</button>
+            <div class="return-shipping-wrapper">
+              <img src="./styles/cart/return-shipping.svg" alt="" />
+              <p>
+                Обратная доставка товаров на склад при отказе —
+                <span>бесплатно</span>
+              </p>
+            </div>
+          </div>
+          <div class="payment-block">
+            <h3 class="payment-by">Оплата картой</h3>
+            <img src="./styles/cart/mir.svg" alt="payment system" />
+            <span class="card-number">1234 1234 1234 1234</span>
+            <div class="checkbox-payment-wrapper">
+              <label for="payment-checkbox">
+                <input type="checkbox" id="payment-checkbox"/>
+                Списать оплату сразу
+              </label>
+              <p class="payment-checkbox-text">
+                Спишем оплату с карты при получении
+              </p>
+            </div>
+          </div>
+        </div>
       </main>
       <footer class="footer">
         <p class="footer-text">© 2022 ООО «Товары и точка»</p>
