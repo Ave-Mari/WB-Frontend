@@ -5,8 +5,8 @@ const cartData = [
         picture: '',
         color: 'Белый',
         size: '56',
-        wb: 'Коледино WB',
-        shop: 'OOO Вайлдберриз',
+        shop: 'Коледино WB',
+        wb: 'OOO Вайлдберриз',
         amount: 1,
         price: 1051, //one grand price
         discount: 50.33
@@ -17,8 +17,8 @@ const cartData = [
         picture: '',
         color: 'Прозрачный',
         size: '',
-        wb: 'Коледино WB',
-        shop: 'OOO Мегапрофстиль',
+        shop: 'Коледино WB',
+        wb: 'OOO Мегапрофстиль',
         amount: 200,
         price: 11500.235, //one grand price
         discount: '', 
@@ -29,8 +29,8 @@ const cartData = [
         picture: '',
         color: '',
         size: '',
-        wb: 'Коледино WB',
-        shop: 'OOO Вайлдберриз',
+        shop: 'Коледино WB',
+        wb: 'OOO Вайлдберриз',
         amount: 2,
         price: '', //one grand price
         discount: '', //one grand price
