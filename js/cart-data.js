@@ -2,7 +2,7 @@ const cartData = [
     {
         id: 143654,
         itemTitle: 'Футболка UZcotton мужская',
-        picture: '',
+        picture: '../styles/cart/cart-data-images/t-shirt.png',
         color: 'Белый',
         size: '56',
         shop: 'Коледино WB',
@@ -14,7 +14,7 @@ const cartData = [
     {
         id: 2645656,
         itemTitle: 'Силиконовый чехол картхолдер (отверстия) для карт, прозрачный кейс бампер на Apple iPhone XR, MobiSafe',
-        picture: '',
+        picture: '../styles/cart/cart-data-images/phone-case.png',
         color: 'Прозрачный',
         size: '',
         shop: 'Коледино WB',
@@ -26,7 +26,7 @@ const cartData = [
     {
         id: 372850,
         itemTitle: 'Карандаши цветные Faber-Castell "Замок", набор 24 цвета, заточенные, шестигранные, Faber-Castell',
-        picture: '',
+        picture: '../styles/cart/cart-data-images/pencils.png',
         color: '',
         size: '',
         shop: 'Коледино WB',
