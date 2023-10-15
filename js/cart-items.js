@@ -34,12 +34,12 @@ export const cartMap = (cartData) => {
             </div>
         </div>
         <div class="amount-and-price-wrapper">
-            <div class="amount">
-                <label class="amount-label">
-                    <input type="button" value="-">
-                    <span>${item.amount}</span>
-                    <input type="button" value="+">                               
-                </label>
+            <div class="amount">                
+                <div class="amount-buttons-wrapper"> 
+                <button class="amount-button" id="btn-decrement">−</button>
+                    <p class="amount-value">${item.amount}</p>
+                <button class="amount-button" id="btn-increment">+</button>      
+                </div>                    
                 <p class="amount-text">Осталось <span class="amount-dynamic">2</span> шт.</p>
             </div>
             <div class="price">
