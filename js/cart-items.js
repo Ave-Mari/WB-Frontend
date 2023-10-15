@@ -5,21 +5,29 @@ const cartList = document.querySelector(".cart-items-list");
 export const cartMap = (cartData) => {
   let mapCartItems = cartData.map((item) => {
     return `
-        <li class="cart-item">
-        <input type="checkbox" />
+        <li class="cart-item">     
         <div class="item-wrapper">
+        <input type="checkbox" />
             <div class="picture-wrapper">
-                <img src="" alt="">
+                <img class="item-picture" src=${item.picture} alt=${
+      item.itemTitle
+    }>
             </div>
             <div class="params-wrapper">
                 <p class="title">${item.itemTitle}</p>
                 <div class="color-and-size-wrapper">
-                    <p class="color">Цвет: <span class="color-dynamic">${
-                      item.color
-                    }</span></p>
-                    <p class="size">Размер: <span class="size-dynamic">${
-                      item.size
-                    }</span></p>
+                ${
+                  item.color
+                    ? `<p class="color">Цвет: <span class="color-dynamic">${item.color}</span></p>`
+                    : ""
+                }
+                  ${
+                    item.size
+                      ? `<p class="size">Размер: <span class="size-dynamic">${item.size}</span></p>`
+                      : ""
+                  }
+                    
+                
                 </div>
                 <p class="shop">${item.shop}</p>
                 <p class="wb">${item.wb}</p>
