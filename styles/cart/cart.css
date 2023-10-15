@@ -1,14 +1,15 @@
 .cart {
-    padding-top: 11px;
+  padding-top: 11px;
 }
 
 .cart-headline {
-    font-size: 27.7px;
-  }
-  
+  font-size: 27.7px;
+}
+
 .cart-wrapper {
-    display: flex;
-    gap: 32px; 
+  display: flex;
+  gap: 32px;
+  justify-content: space-between;
 }
 ul {
   list-style: none;
@@ -16,34 +17,71 @@ ul {
 }
 .cart-item {
   display: flex;
-  justify-content: space-between;
+  margin-bottom: 20px;
+  gap: 255px;
+  align-items: center;
 }
 .item-wrapper {
   display: flex;
 }
 
+.picture-wrapper {
+  margin-right: 17px;
+}
+
 .item-picture {
   width: 72px;
+  border-radius: 8px;
 }
 
 .params-wrapper {
-    width: 275px;
+  width: 275px;
 }
 
 .title {
   margin-top: 0px;
   margin-bottom: 8px;
   font-size: 16px;
-font-style: normal;
-font-weight: 400; 
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.amount-buttons-wrapper {
+  width: 100px;
+  padding: 12px 0px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background: #fff;
+  justify-content: space-around;
+  margin-bottom: 6px;
+}
+
+.amount-value {
+  margin: 0;
+}
+
+.amount-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.amount-text {
+  color: #ff3b30;
+  font-size: 13px;
+  margin-top: 0;
 }
 
 .color-and-size-wrapper {
+  width: 56%;
+  margin-bottom: 8px;
   display: flex;
   justify-content: space-between;
   font-size: 13px;
-font-style: normal;
-font-weight: 400; 
+  font-style: normal;
+  font-weight: 400;
 }
 
 .color {
@@ -59,8 +97,71 @@ font-weight: 400;
 .shop {
   margin-top: 0px;
   margin-bottom: 4px;
+  color: #9797af;
+  font-size: 13px;
+  font-weight: 400;
 }
 .wb {
   margin-top: 0px;
   margin-bottom: 0px;
+  color: #9797af;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.amount-and-price-wrapper {
+  display: flex;
+  width: 236px;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.price {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.price-discount-text {
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  margin: 0;
+  margin-bottom: 2px;
+}
+
+.s-text {
+  font-size: 16px;
+}
+
+.price-original-text {
+  color: #9797af;
+  font-size: 13px;
+  font-weight: 400;
+  border-bottom: 1px dashed #9797af;
+  margin: 0;
+  text-align: end;
+  text-decoration: line-through;
+}
+.button-with-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  padding: 2px 2px;
+}
+
+.button-with-icon:hover {
+  background: #cc9dee;
+}
+
+.icons-wrapper {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.checkbox-cart {
+  margin-top: 38px;
+  margin-right: 13px;
 }
