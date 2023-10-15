@@ -1,5 +1,7 @@
 .main {
-    width: 100%;
+    width: 100vw;
     background: #F6F6FA;
     border-radius: 30px;
+    box-sizing: border-box;
+    padding: 0px 24px 16px 24px; 
 }
