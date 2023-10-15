@@ -9,7 +9,9 @@
     <link rel="stylesheet" href="./styles/footer/footer.css" />
     <link rel="stylesheet" href="./styles/payment/payment.css" />
     <link rel="stylesheet" href="./styles/cart/cart.css" />
+    <link rel="stylesheet" href="./styles/checkbox/checkbox.css" />
     <title>Товары и Точка</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
     <div class="page">
@@ -50,8 +52,8 @@
           <h2 class="cart-headline">Корзина</h2>
           <div class="cart-wrapper">
             <div class="list-wrapper">
-                <ul class="cart-items-list"></ul>
-            </div>         
+              <ul class="cart-items-list"></ul>
+            </div>
             <div class="delivery-and-payment-block">
               <div class="price-info">
                 <div class="left-block">
@@ -97,12 +99,15 @@
                   <img src="./styles/cart/mir.svg" alt="payment system" />
                   <span class="card-number">1234 1234 1234 1234</span>
                 </div>
-  
                 <div class="checkbox-payment-wrapper">
-                  <label for="payment-checkbox">
-                    <input type="checkbox" id="payment-checkbox" />
-                    Списать оплату сразу
-                  </label>
+                  <div class="checkbox-and-text-wrapper">
+                    <div class="checkbox-wrapper">
+                      <input type="checkbox" checked id="checkbox" />
+                      <label for="checkbox"></label>
+                    </div>
+                    <p class="payment-checkbox-text">Списать оплату сразу</p>
+                  </div>
+
                   <p class="payment-checkbox-text">
                     Спишем оплату с карты при получении
                   </p>
@@ -114,15 +119,13 @@
                   <input type="checkbox" id="order-checkbox" />
                   <p>
                     Соглашаюсь с
-                    <span>правилами пользования торговой</span> площадкой и <span
-                      >возврата</span
-                    >
+                    <span>правилами пользования торговой</span> площадкой
+                    и <span>возврата</span>
                   </p>
                 </label>
               </div>
             </div>
           </div>
-         
         </section>
       </main>
       <footer class="footer">
