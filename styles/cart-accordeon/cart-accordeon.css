@@ -1,0 +1,30 @@
+.accordion-cart-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s;
+}
+
+.accordion-cart.active .accordion-cart-content {
+  max-height: 1000px; 
+  transition: max-height 0.3s;
+}
+
+.accordion-cart-header {
+  cursor: pointer;
+  padding: 10px 10px 18px 0px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+  text-align: left;
+  user-select: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.accordion-cart .arrow {
+  font-size: 20px;
+  transition: transform 0.3s;
+}
+
+.accordion-cart.active .arrow {
+  transform: rotate(180deg);
+}
