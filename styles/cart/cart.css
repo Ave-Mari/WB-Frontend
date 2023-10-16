@@ -1,4 +1,4 @@
-.cart {
+.cart-section {
   padding-top: 11px;
 }
 
@@ -165,3 +165,8 @@ ul {
   margin-top: 38px;
   margin-right: 13px;
 }
+
+.checkbox-select-all {
+  margin-right: 13px;
+}
+
