@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./styles/payment/payment.css" />
     <link rel="stylesheet" href="./styles/cart/cart.css" />
     <link rel="stylesheet" href="./styles/checkbox/checkbox.css" />
+    <link rel="stylesheet" href="./styles/cart-accordeon/cart-accordeon.css" />
     <title>Товары и Точка</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
@@ -48,12 +49,25 @@
         </div>
       </header>
       <main class="main">
-        <section class="cart">
+        <section class="cart-section">
           <h2 class="cart-headline">Корзина</h2>
           <div class="cart-wrapper">
-            <div class="list-wrapper">
-              <ul class="cart-items-list"></ul>
-            </div>
+            <div class="accordion-cart">
+              <div class="accordion-cart-header">
+                <div class="checkbox-wrapper checkbox-select-all">
+                  <input type="checkbox" checked id="selectAll" />
+                  <label for="selectAll"> </label>
+                  <span>Выбрать всё</span>
+                </div>
+               
+               <img class="arrow" src="./styles/cart-accordeon/accordeon-arrow.svg" alt="Раскрыть" />
+              </div>         
+              <div class="accordion-cart-content">
+                <div class="list-wrapper">
+                  <ul class="cart-items-list"></ul>
+                </div>
+              </div>
+            </div>         
             <div class="delivery-and-payment-block">
               <div class="price-info">
                 <div class="left-block">
